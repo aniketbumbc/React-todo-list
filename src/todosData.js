@@ -7,12 +7,12 @@ const todosData = [
       },
       {
             id:2,
-            text:"work on IELTS",
+            text:"work on Angular",
             completed:false
       },
       {
             id:13,
-            text:"Play Music",
+            text:"work on Node",
             completed:true
       }
 ]
