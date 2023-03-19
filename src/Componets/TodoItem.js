@@ -1,19 +1,19 @@
-import React from "react";
+import React from 'react';
+import './todo-item.css';
+const deleteIconImg = process.env.PUBLIC_URL + '/delete-icon.png';
 
-function TodoItem(props){
-    console.log(props);
-          return(      
-      <div className="todo-item">
-            <input type="checkbox"
-             onChange={()=>props.handleChange(props.id)}
-             checked = {props.completed} />
-            <p> {props.text} </p>        
-        </div>    
-
-      )
+function TodoItem(props) {
+  return (
+    <div className='todo-item'>
+      <img
+        className='image-delete'
+        src={deleteIconImg}
+        alt='Delete'
+        onClick={() => props.handleChange(props.id)}
+      />
+      <p> {props.text} </p>
+    </div>
+  );
 }
 
- // function changeList(){
-//      console.log("This is change");
-// }
 export default TodoItem;

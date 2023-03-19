@@ -2,14 +2,14 @@
   text-align: center;
 }
 
-.h1tag{
-  color:royalblue;
+.h1tag {
+  color: royalblue;
   margin: auto;
   width: 200px;
   padding: 10px;
 }
 
-.listItem{
+.listItem {
   position: absolute;
   width: 300px;
   height: 200px;
@@ -17,7 +17,7 @@
   top: 50%;
   left: 50%;
   margin: -100px 0 0 -150px;
-   color: crimson;
+  color: crimson;
 }
 
 .App-header {
@@ -34,61 +34,71 @@
 .App-link {
   color: #09d3ac;
 }
-li div { display: table-cell; 
+li div {
+  display: table-cell;
   vertical-align: middle;
-  }
-  div ul{
-    list-style: none;
-  }
+}
+div ul {
+  list-style: none;
+}
 
-  body {
-    background-color: whitesmoke;
+body {
+  background-color: whitesmoke;
 }
 
 .todo-list {
-    background-color: white;
-    margin: auto;
-    width: 50%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    border: 1px solid #efefef;
-    box-shadow:
-    /* The top layer shadow */
-        0 1px 1px rgba(0,0,0,0.15),
-            /* The second layer */
-        0 10px 0 -5px #eee,
-            /* The second layer shadow */
-        0 10px 1px -4px rgba(0,0,0,0.15),
-            /* The third layer */
-        0 20px 0 -10px #eee,
-            /* The third layer shadow */
-        0 20px 1px -9px rgba(0,0,0,0.15);
-    padding: 30px;
+  background-color: white;
+  margin: auto;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 1px solid #efefef;
+  box-shadow:
+    /* The top layer shadow */ 0 1px 1px rgba(0, 0, 0, 0.15),
+    /* The second layer */ 0 10px 0 -5px #eee,
+    /* The second layer shadow */ 0 10px 1px -4px rgba(0, 0, 0, 0.15),
+    /* The third layer */ 0 20px 0 -10px #eee,
+    /* The third layer shadow */ 0 20px 1px -9px rgba(0, 0, 0, 0.15);
+  padding: 30px;
 }
 
 .todo-item {
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
-    padding: 30px 20px 0;
-    width: 70%;
-    border-bottom: 1px solid #cecece;
-    font-family: Roboto, sans-serif;
-    font-weight: 100;
-    font-size: 15px;
-    color: #333333;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 30px 20px 0;
+  width: 70%;
+  border-bottom: 1px solid #cecece;
+  font-family: Roboto, sans-serif;
+  font-weight: 100;
+  font-size: 15px;
+  color: #333333;
 }
 
-input[type=checkbox] {
-    margin-right: 10px;
-    font-size: 30px;
+input[type='checkbox'] {
+  margin-right: 10px;
+  font-size: 30px;
 }
 
-input[type=checkbox]:focus {
-    outline: 0;
-}
-.header-class{
+.header-class {
   font-family: 'Courier New';
   color: crimson;
+}
+
+input[type='text'] {
+  padding: 5px 5px;
+  line-height: 5px;
+}
+
+.container {
+  display: flex;
+}
+
+.add-btn {
+  margin-left: 20px;
+  color: crimson;
+  border: 2px solid crimson;
+  border-radius: 10px;
+  height: 30px;
 }
