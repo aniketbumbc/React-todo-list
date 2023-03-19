@@ -13,7 +13,7 @@ class App extends Component {
         text: '',
       },
       value: '',
-      stateWord: "What it Today's Do-List",
+      stateWord: 'Do It Today Only',
     };
     this.handleChange = this.handleChange.bind(this);
   }
